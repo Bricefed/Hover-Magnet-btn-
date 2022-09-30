@@ -24,12 +24,15 @@ body {
   background: var(--i);
   box-shadow: 0 0 10px var(--i);
   cursor: pointer;
+  transition: transform 0.3s linear;
 }
 
 .btn-box span {
+  display: block;
   text-transform: uppercase;
   color: white;
   font-size: 20px;
   font-weight: 600;
   letter-spacing: 1px;
+  transition: transform 0.3s linear;
 }
