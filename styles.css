@@ -1,6 +1,35 @@
-body {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.btns-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.btn-box {
+  border: none;
+  border-radius: 10px;
+  padding: 20px 40px;
+  background: var(--i);
+  box-shadow: 0 0 10px var(--i);
+  cursor: pointer;
+}
+
+.btn-box span {
+  text-transform: uppercase;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
 }
